@@ -1,0 +1,24 @@
+	h1,h2,h3,h4,h5,p,span,div, big, *, button, a, img, canvas, svg, header, body, head, html {
+		
+		animation-name: slide-in-bl;
+		animation-duration: 12s;
+		animation-timing-function: ease;
+		animation-delay: 0s;
+		animation-iteration-count: infinite;
+		animation-direction: alternate-reverse;
+		animation-fill-mode: none;
+			
+		/* shorthand
+		animation: slide-in-bl 12s ease 0s infinite alternate-reverse none;*/
+	}
+	@keyframes slide-in-bl {
+			
+		0% {
+			transform:translateY(1000px) translateX(-1000px);
+			opacity:0;
+		}
+		100% {
+			transform:translateY(0) translateX(0);
+			opacity:1;
+		}
+	}
