@@ -1,0 +1,51 @@
+div.button {
+	width: 400px;
+	height: 100px;
+	border-radius: 10px;
+	border: 1px solid white;
+	background-color: black;
+	transition: width 1s, height 0.5s, transform 1s, border 1s;
+}
+div.SN {
+	width: 900px;
+	height: 50px;
+	background-color: black;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	transition: width 1s, height 1s;
+	  transition-delay: 0.5s;
+	
+}
+img{
+	border-radius: 300px;
+	transition: width 0.5s, height 0.5s, transform 0.5s;
+}
+html{
+	font-family: 'Josefin Sans', sans-serif;
+}
+button{
+	color: white;
+	background-color: black;
+	border: solid 2px white;
+	border-radius: 2px;
+	transition: width 1s, height 1s, transform 1s;
+}
+button:hover{
+	color: white;
+	background-color: blue;
+	border: solid 2px white;
+	border-radius: 2px;
+	transform: scale(1.5);
+}
+img:hover{
+	transform: scale(1.5);
+}
+div.SN:hover{
+	height: 200px;
+}
+div.button:hover{
+	height: 120px;
+	border: 1px solid white;
+
+}
